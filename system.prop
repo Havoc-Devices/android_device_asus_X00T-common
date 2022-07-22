@@ -34,6 +34,12 @@ debug.sf.latch_unsignaled=1
 persist.demo.hdmirotationlock=false
 sdm.debug.disable_skip_validate=1
 
+# Havoc Official
+ro.havoc.device.name= Asus Max Pro M1
+ro.havoc.group.url=https://t.me/+BaJnedaBMMQxNzg9
+ro.havoc.maintainer= Atharv Balwant Sutar
+ro.havoc.maintainer.username= AT ANYTHING
+
 # IORap app launch prefetching using Perfetto traces and madvise
 iorapd.readahead.enable=true
 
