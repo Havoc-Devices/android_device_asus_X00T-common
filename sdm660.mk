@@ -86,6 +86,10 @@ PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service \
     android.hardware.atrace@1.0.vendor
 
+# Blurs
+PRODUCT_PROPERTY_OVERRIDES  += \
+    persist.sys.sf.disable_blurs=1
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.1-impl \
